@@ -31,6 +31,14 @@ Disabled function,  not been implemented yet on LVGL
 FILAMENT_RUNOUT_SENSOR 
 POWER_LOSS_RECOVERY
 
+## Compare between Robin Nano V1.2 and V1.3
+| ITEMS      |  Robin Nano V1.2  | Robin Nano V1.3 | Robin Nano-S V1.3 |
+|------------|--------------------|--------------------|--------------------|
+| MCU        | STM32F103VET6(72MHz) | STM32F407VET6（168MHz）| STM32F407VET6（168MHz）|
+| FLASH/RAM | 512KB FLASH/64KB RAM | 512KB FLASH/192KB RAM | 512KB FLASH/192KB RAM |
+| Drivers | Pluggable | Pluggable | 4 TMC2225 standard mode + 1 Pluggable|
+| Firmware offset | 7000 | 8000 | 8000 |
+
 How to install:
 Copy content of asset folder and Robin_nano35.bin to the SD card, reboot the machine and enjoy.
 
